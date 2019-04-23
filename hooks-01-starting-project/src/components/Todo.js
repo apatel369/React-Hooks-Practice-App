@@ -15,7 +15,7 @@ const todo = props => {
     const todoAddHandler = () => {
         setTodoState({
             userInput: todoState.userInput, 
-            todoList: todoState.todoList.concat(todoState.userInput
+            todoList: todoState.todoList.concat(todoState.userInput)
         }) ;
     };
 
