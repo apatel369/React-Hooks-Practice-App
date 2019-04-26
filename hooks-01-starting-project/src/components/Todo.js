@@ -19,7 +19,6 @@ const todo = props => {
     //     todoList: todoState.todoList.concat(todoState.userInput)
     // }) ;
     setTodolist(todoList.concat(todoName));
-    // axios.post
   };
 
   return (
