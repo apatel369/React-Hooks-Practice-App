@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 
 const todo = props => {
   const [todoName, setTodoName] = useState("");
